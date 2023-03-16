@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Header from './Header.js'
+import Footer from './Footer.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,16 +18,7 @@ export default function Traveling() {
       </Head>
       <main className={styles.main}>
        
-        <div className={styles.head}>
-          <div className={styles.header}>
-            <h1>FUN THINGS ABOUT RACHEL</h1>
-          </div>
-          <div className={styles.topnav}>
-            <a href="#" className={styles.topnavitem} >Home</a>
-            <a href="#" className={styles.topnavitem} >Dancing</a>
-            <a href="#" className={styles.topnavitem} >Traveling</a>
-          </div>
-        </div>
+        <Header />
 
         <h1 className={styles.headline}>Here's my travel Logs.</h1>
        
@@ -77,9 +70,7 @@ export default function Traveling() {
         </div>
 
 
-        <div className={styles.footer}>
-          <p>Learn more about Rachel's design at <a href="https://www.rachelqian.com/">www.rachelqian.com</a></p>
-        </div>
+        <Footer />
 
       </main>
     </>
