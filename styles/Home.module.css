@@ -124,6 +124,37 @@
   border-color: #E39353;
 }
 
+.module {
+  background-color: #676F9D;
+  color: white;
+  padding: 50px 100px;
+  width: 90%;
+  border-radius:40px;
+}
+
+.headline {
+  color: #E39353;
+  padding: 50px;
+}
+
+.subtitle {
+  color:#E39353;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.textblock{
+  padding: 20px 0;
+}
+
+.photogallery {
+  padding-top: 20px;
+}
+
+.photo {
+  padding-right: 20px;
+}
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
