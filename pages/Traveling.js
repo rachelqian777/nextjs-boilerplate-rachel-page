@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from './Header.js'
-import Footer from './Footer.js'
+import BottomSection from './Footer.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +18,9 @@ export default function Traveling() {
       </Head>
       <main className={styles.main}>
        
-        <Header />
+      <Header 
+          name="Traveling"
+        />
 
         <h1 className={styles.headline}>Here are my travel Logs.</h1>
        
@@ -70,7 +72,9 @@ export default function Traveling() {
         </div>
 
 
-        <Footer />
+        <BottomSection 
+        name="Traveling"
+      />
 
       </main>
     </>

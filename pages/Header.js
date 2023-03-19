@@ -1,7 +1,7 @@
 import styles from '@/styles/Home.module.css'
 import Link from "next/link"
 
-function Topsection() {
+export default function Header(props) {
   return (
     <div className={styles.head}>
       <div className={styles.header}>
@@ -12,12 +12,10 @@ function Topsection() {
         <Link className={styles.topnavitem} to="/Dancing" href="/Dancing">Dancing</Link>
         <Link className={styles.topnavitem} to="/Traveling" href="/Traveling">Traveling</Link>
       </div>
+      <div className={styles.headline}>
+        <p>{props.name}</p>
+      </div>
     </div>
   )
 }
-
-export default function Header() {
-  return (
-    <Topsection />
-  );
-}
+ 

@@ -3,8 +3,9 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from './Header.js'
-import Footer from './Footer.js'
+import BottomSection from './Footer.js'
 import Link from "next/link"
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +23,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
        
-        <Header />
+        <Header 
+          name="Home Page"
+        />
+
 
         <div className={styles.intro}>
           <h2>A Little About Me</h2>
@@ -55,7 +59,10 @@ export default function Home() {
           </div>
         </div>
 
-        <Footer />
+      <BottomSection 
+        name="Home Page"
+      />
+
 
       </main>
     </>

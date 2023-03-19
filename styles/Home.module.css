@@ -134,7 +134,9 @@
 
 .headline {
   color: #E39353;
-  padding: 50px;
+  padding: 20px;
+  text-align: center;
+  font-size:32px;
 }
 
 .subtitle {
