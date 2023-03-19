@@ -8,7 +8,7 @@ function Topsection() {
       </div>
       <div className={styles.topnav}>
         <a href="#" className={styles.topnavitem} >Home</a>
-        <a href="#" className={styles.topnavitem} >Dancing</a>
+        <NavLink className={styles.topnavitem} activeClassName="is-active" to="/Dancing" exact >Dancing</NavLink>
         <a href="#" className={styles.topnavitem} >Traveling</a>
       </div>
     </div>
