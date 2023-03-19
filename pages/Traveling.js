@@ -20,7 +20,7 @@ export default function Traveling() {
        
         <Header />
 
-        <h1 className={styles.headline}>Here's my travel Logs.</h1>
+        <h1 className={styles.headline}>Here are my travel Logs.</h1>
        
         <div className={styles.row}>
           <div className={styles.column}>
