@@ -35,9 +35,9 @@ export default function Traveling() {
               <p className={styles.subtitle}>Food</p>
               <p>Singapore has a lot of delicious and affordable food choices, such as Hainan Chicken, Laksa Noodle, and Chili Crab.</p>
               <br></br>
-              <img src="singaporefood01.png"></img>
-              <img src="singaporefood02.png"></img>
-              <img src="singaporefood03.png"></img>
+              <img src="singaporefood01.png" alt="singapore"></img>
+              <img src="singaporefood02.png" alt="singapore"></img>
+              <img src="singaporefood03.png" alt="singapore"></img>
             </div>
             <div className={styles.textblock}>
               <p className={styles.subtitle}>Wheather</p>
@@ -58,9 +58,9 @@ export default function Traveling() {
             <div className={styles.textblock}>
               <p className={styles.subtitle}>Food</p>
               <p>My favorite food in Japan was matcha, especially in Kyoto. During my stay there, I got matcha ice cream every day.</p>
-              <img src="matcha1.png"></img>
-              <img src="matcha2.png"></img>
-              <img src="matcha3.png"></img>
+              <img src="matcha1.png" alt="matcha"></img>
+              <img src="matcha2.png" alt="matcha"></img>
+              <img src="matcha3.png" alt="matcha"></img>
             </div>
             <div className={styles.textblock}>
               <p className={styles.subtitle}>Wheather</p>
