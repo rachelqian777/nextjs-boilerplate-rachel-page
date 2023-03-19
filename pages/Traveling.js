@@ -24,7 +24,7 @@ export default function Traveling() {
        
         <div className={styles.row}>
           <div className={styles.column}>
-            <img src="travel03.jpg"></img>
+            <img src="travel03.jpg" alt="singapore"></img>
           </div>
           <div className={styles.column}>
             <div>
@@ -48,7 +48,7 @@ export default function Traveling() {
 
         <div className={styles.row}>
           <div className={styles.column}>
-            <img src="travel04.jpg"></img>
+            <img src="travel04.jpg" alt="Japan"></img>
           </div>
           <div className={styles.column}>
             <div>
