@@ -30,7 +30,7 @@ export default function Home() {
 
         <div className={styles.row}>
           <div className={styles.column}>
-            <img src="dancing01.jpg"></img>
+            <img src="dancing01.jpg" alt ="Dancing"></img>
           </div>
           <div className={styles.column}>
             <h2>Dancing</h2>
@@ -43,7 +43,7 @@ export default function Home() {
         
         <div className={styles.row}>
           <div className={styles.column}>
-            <img src="travel01.jpg"></img>
+            <img src="travel01.jpg" alt="Dancing"></img>
           </div>
           <div className={styles.column}>
             <h2>Traveling</h2>
