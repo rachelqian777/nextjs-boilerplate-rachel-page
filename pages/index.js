@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from './Header.js'
 import Footer from './Footer.js'
+import Link from "next/link"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -37,7 +38,7 @@ export default function Home() {
             <br></br>
             <p>Dancing has always been my favorite thing to do outside of school and work. I have tried Jazzfunk, Hiphop and Chreography. My next step is to get more into old school styles like Popping and Locking. Living in LA also gives me one of the best resources in the world in terms of dancing. So thank you LA!</p>
             <br></br>
-            <a className={styles.button} href="#">Learn More</a>
+            <Link className={styles.button} to="/Dancing" href="/Dancing">Learn More</Link>
           </div>
         </div>
         
@@ -50,7 +51,7 @@ export default function Home() {
             <br></br>
             <p>Although not a fan of flying long distances, I love traveling to different countries and cities. I grew up in China and have been to more than 20 cities in China. I have also traveled to Australia, Japan, Korea and Singapore. My goal for the coming years is to explore europe and South America countries more!</p>
             <br></br>
-            <a className={styles.button} href="#">Learn More</a>
+            <Link className={styles.button} to="/Traveling" href="/Traveling">Learn More</Link>
           </div>
         </div>
 
