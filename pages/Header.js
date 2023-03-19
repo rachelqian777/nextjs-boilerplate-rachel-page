@@ -1,4 +1,5 @@
 import styles from '@/styles/Home.module.css'
+import Link from "next/link"
 
 function Topsection() {
   return (
@@ -7,9 +8,9 @@ function Topsection() {
         <h1>FUN THINGS ABOUT RACHEL</h1>
       </div>
       <div className={styles.topnav}>
-        <a href="#" className={styles.topnavitem} >Home</a>
-        <NavLink className={styles.topnavitem} activeClassName="is-active" to="/Dancing" exact >Dancing</NavLink>
-        <a href="#" className={styles.topnavitem} >Traveling</a>
+        <Link className={styles.topnavitem} to="/" href="/">Home</Link>
+        <Link className={styles.topnavitem} to="/Dancing" href="/Dancing">Dancing</Link>
+        <Link className={styles.topnavitem} to="/Traveling" href="/Traveling">Traveling</Link>
       </div>
     </div>
   )
