@@ -40,7 +40,7 @@ export default function Home() {
           <div className={styles.column}>
             <h2>Dancing</h2>
             <br></br>
-            <p>Dancing has always been my favorite thing to do outside of school and work. I have tried Jazzfunk, Hiphop and Chreography. My next step is to get more into old school styles like Popping and Locking. Living in LA also gives me one of the best resources in the world in terms of dancing. So thank you LA!</p>
+            <p className={styles.onDarkBackground}>Dancing has always been my favorite thing to do outside of school and work. I have tried Jazzfunk, Hiphop and Chreography. My next step is to get more into old school styles like Popping and Locking. Living in LA also gives me one of the best resources in the world in terms of dancing. So thank you LA!</p>
             <br></br>
             <Link className={styles.button} to="/Dancing" href="/Dancing">Learn More</Link>
           </div>

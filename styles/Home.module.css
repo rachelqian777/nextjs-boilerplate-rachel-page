@@ -132,6 +132,10 @@
   border-radius:40px;
 }
 
+.onDarkBackground {
+  color: white
+}
+
 .headline {
   color: #E39353;
   padding: 20px;
