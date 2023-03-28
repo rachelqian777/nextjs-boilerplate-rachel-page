@@ -30,12 +30,12 @@ export default function Traveling() {
           </div>
           <div className={styles.column}>
             <div>
-              <h2>Singapore</h2>
-              <p>I've been to Singapore twice, once for study purpose, and once to travel.</p>
+              <h2 className={styles.onDarkBackground}>Singapore</h2>
+              <p className={styles.onDarkBackground}>I've been to Singapore twice, once for study purpose, and once to travel.</p>
             </div>
             <div className={styles.textblock}>
               <p className={styles.subtitle}>Food</p>
-              <p>Singapore has a lot of delicious and affordable food choices, such as Hainan Chicken, Laksa Noodle, and Chili Crab.</p>
+              <p className={styles.onDarkBackground}>Singapore has a lot of delicious and affordable food choices, such as Hainan Chicken, Laksa Noodle, and Chili Crab.</p>
               <br></br>
               <img src="singaporefood01.png" alt="singapore"></img>
               <img src="singaporefood02.png" alt="singapore"></img>
@@ -43,7 +43,7 @@ export default function Traveling() {
             </div>
             <div className={styles.textblock}>
               <p className={styles.subtitle}>Wheather</p>
-              <p>Wheather is one thing that I don't like about Singapore. The temperature is on the higher end year around. On the other hand, it rains a lot during the raining season.</p>
+              <p className={styles.onDarkBackground}>Wheather is one thing that I don't like about Singapore. The temperature is on the higher end year around. On the other hand, it rains a lot during the raining season.</p>
             </div>
           </div>
         </div>
@@ -54,19 +54,19 @@ export default function Traveling() {
           </div>
           <div className={styles.column}>
             <div>
-              <h2>Japan</h2>
-              <p>In 2016, before going to college, I went on a trip to Japan with my friends. We went to Tokyo, Kyoto, and Osaka.</p>
+              <h2 className={styles.onDarkBackground}>Japan</h2>
+              <p className={styles.onDarkBackground}>In 2016, before going to college, I went on a trip to Japan with my friends. We went to Tokyo, Kyoto, and Osaka.</p>
             </div>
             <div className={styles.textblock}>
               <p className={styles.subtitle}>Food</p>
-              <p>My favorite food in Japan was matcha, especially in Kyoto. During my stay there, I got matcha ice cream every day.</p>
+              <p className={styles.onDarkBackground}>My favorite food in Japan was matcha, especially in Kyoto. During my stay there, I got matcha ice cream every day.</p>
               <img src="matcha1.png" alt="matcha"></img>
               <img src="matcha2.png" alt="matcha"></img>
               <img src="matcha3.png" alt="matcha"></img>
             </div>
             <div className={styles.textblock}>
               <p className={styles.subtitle}>Wheather</p>
-              <p>I went to Japan the end of April. It was at the end of the cherry blossom season. I was luck enough to see some cherry blossoms.</p>
+              <p className={styles.onDarkBackground}>I went to Japan the end of April. It was at the end of the cherry blossom season. I was luck enough to see some cherry blossoms.</p>
             </div>
           </div>
         </div>
